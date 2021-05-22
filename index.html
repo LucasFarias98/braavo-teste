@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Teste Front End - Braavo!</title>
+  <link rel="shortcut icon" href="assets/img/logo-braavo.png">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <section class="caixa">
+    <main class="conteudoPrincipal">
+      <section class="conteudoPrincipal__sideBar">
+        <h1 class="conteudoPrincipal__tituloPrincipal">10%off na sua <br> primeira compra</h1>
+        <p class="conteudoPrincipal__assinatura">Assine nossa nwesletter e fique <br> &nbsp; ligada em nossas novidades,
+          <br> dicas e promoções!</p>
+
+        <form class="formulario" name="formularioUsuario" action="#">
+          <input class="formulario__inputPadrao" name="nome" id="nome" type="text" required
+            placeholder="Insira seu nome" maxlength="25">
+          <input class="formulario__inputPadrao" name="email" type="email" required placeholder="Insira seu e-mail">
+          <input class="formulario__enviar" type="submit" onclick=" return validarCampos ()" value="Assinar">
+        </form>
+      </section>
+      <img class="img__mulher" src="assets/img/foto.jpg" alt="Mulher de vestido vermelho sentada na escada.">
+      <script src="js/validacao.js"></script>
+    </main>
+  </section>
+</body>
+
+</html>
